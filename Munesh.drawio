@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
+  <diagram name="Page-1" id="gwguDuLdpbhu1q419q_h">
+    <mxGraphModel dx="954" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HSTmsQhIp11_8FB0ytZN-1" target="HSTmsQhIp11_8FB0ytZN-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HSTmsQhIp11_8FB0ytZN-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HSTmsQhIp11_8FB0ytZN-3" target="HSTmsQhIp11_8FB0ytZN-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-3" value="your Backend&lt;div&gt;/userid&lt;/div&gt;&lt;div&gt;plan id&lt;/div&gt;&lt;div&gt;metadata&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="229" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HSTmsQhIp11_8FB0ytZN-5" target="HSTmsQhIp11_8FB0ytZN-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-5" value="what amount" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="539" y="340" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HSTmsQhIp11_8FB0ytZN-9" target="HSTmsQhIp11_8FB0ytZN-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HSTmsQhIp11_8FB0ytZN-9" target="HSTmsQhIp11_8FB0ytZN-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-9" value="Stripe details&lt;br&gt;Payment -&amp;gt;Unique id&lt;br&gt;this amount&lt;div&gt;for this customer id&lt;/div&gt;&lt;div&gt;time&#39;&#39;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;what is the payment gateway&lt;/span&gt;&lt;/div&gt;&lt;div&gt;what is the gateway url&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="389" y="-20" width="174" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-10" value="Payment Init database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="649" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-13" value="Payment Url with 30X status code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="209" y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HSTmsQhIp11_8FB0ytZN-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-15" value="stripe page&lt;div&gt;with amount&lt;/div&gt;&lt;div&gt;xyz&lt;/div&gt;&lt;div&gt;redirection url and details (some unique id)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="20" y="585" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HSTmsQhIp11_8FB0ytZN-17" target="HSTmsQhIp11_8FB0ytZN-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSTmsQhIp11_8FB0ytZN-17" value="/call with unique id" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="269" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
