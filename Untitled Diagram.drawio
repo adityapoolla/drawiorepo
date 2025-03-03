@@ -1,61 +1,9 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
-  <diagram name="Page-1" id="_CZJu7FzzwvH2fVmsiok">
-    <mxGraphModel dx="1781" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="uEsv_zv_Y_fFa_X_W82-">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jZyp7qm8p_olT4CLzALx-1" value="Web Crawler&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is web crawler?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How to create search engine?&lt;/div&gt;&lt;div&gt;Ecommerce website -&amp;gt; search for competative prices?&lt;/div&gt;&lt;div&gt;Search for some requirement all over the web?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fuctional requirements?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Given a list of sites it should scrape and sanitize and index the data&lt;/div&gt;&lt;div&gt;It should go into the links available in the given websites and iterate 1, 2&lt;/div&gt;&lt;div&gt;Crawl upto the specified depth&lt;/div&gt;&lt;div&gt;Give feasability to access indexed data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="63" width="400" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-2" value="Non functional requirements&lt;div&gt;Calculate the page rank&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;some additional details&lt;br&gt;&lt;div&gt;1. should not crawl already crawled website unless there is change&lt;/div&gt;&lt;div&gt;Parallel crawling or scraping&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="318" width="380" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-3" value="Web page is a Tree document (HTML) with text etc, and links&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;attributes of the document&lt;/div&gt;&lt;div&gt;1. URL&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Document itself&lt;/div&gt;&lt;div&gt;&amp;lt;html&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;tags&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;cotact&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;mobile&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="420" width="350" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-4" value="HIGH LEVEL DESIGN&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="583" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jZyp7qm8p_olT4CLzALx-5" target="jZyp7qm8p_olT4CLzALx-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-50" y="625" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-5" value="&lt;div&gt;Crawling&lt;/div&gt;Component&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-6" value="Web page scraper" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="270" y="720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-7" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="730" width="220" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="780" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jZyp7qm8p_olT4CLzALx-9" target="jZyp7qm8p_olT4CLzALx-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-9" value="page&lt;br&gt;&lt;div&gt;url&lt;/div&gt;&lt;div&gt;rank&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="890" width="60" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-11" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="585" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-13" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="780" width="220" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jZyp7qm8p_olT4CLzALx-13" target="jZyp7qm8p_olT4CLzALx-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-15" value="Document DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="288" y="880" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jZyp7qm8p_olT4CLzALx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jZyp7qm8p_olT4CLzALx-6" target="jZyp7qm8p_olT4CLzALx-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
