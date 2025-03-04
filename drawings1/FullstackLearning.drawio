@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UzF8o4GN21DXVbc5qYGS-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="-250" width="980" height="500" as="geometry" />
+          <mxGeometry x="-170" y="-270" width="980" height="500" as="geometry" />
         </mxCell>
         <mxCell id="UzF8o4GN21DXVbc5qYGS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UzF8o4GN21DXVbc5qYGS-4" target="UzF8o4GN21DXVbc5qYGS-7">
           <mxGeometry relative="1" as="geometry" />
@@ -68,6 +68,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UzF8o4GN21DXVbc5qYGS-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="UzF8o4GN21DXVbc5qYGS-26" target="UzF8o4GN21DXVbc5qYGS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzF8o4GN21DXVbc5qYGS-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="120" width="173" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="UzF8o4GN21DXVbc5qYGS-33" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Template_Specs.svg;" vertex="1" parent="UzF8o4GN21DXVbc5qYGS-36">
+          <mxGeometry x="46.5" y="30" width="56.99999999999999" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="UzF8o4GN21DXVbc5qYGS-34" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Template_Specs.svg;" vertex="1" parent="UzF8o4GN21DXVbc5qYGS-36">
+          <mxGeometry x="69.5" width="56.99999999999999" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="UzF8o4GN21DXVbc5qYGS-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Templates for Server side rendering&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="UzF8o4GN21DXVbc5qYGS-36">
+          <mxGeometry y="30" width="173" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="UzF8o4GN21DXVbc5qYGS-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UzF8o4GN21DXVbc5qYGS-33" target="UzF8o4GN21DXVbc5qYGS-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
